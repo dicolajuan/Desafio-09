@@ -1,0 +1,35 @@
+POST http://localhost:8080/api/productos/guardar HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Samsung 970 EVO Plus MZ-V7S2T0 2TB",
+    "price": 79709,
+    "url": "https://acortar.link/8SKDpi"
+}
+
+###
+
+POST http://localhost:8080/api/productos/guardar HTTP/1.1
+content-type: application/json
+
+{
+    "title": "JORDAN AIR 5 RETRO",
+    "price": 35999,
+    "url": "https://acortar.link/COh4GM"
+}
+
+###
+
+POST http://localhost:8080/api/productos/guardar HTTP/1.1
+content-type: application/json
+
+{
+    "title": "ADIDAS FORUM LOW",
+    "price": 12999,
+    "url": "https://acortar.link/YwYTat"
+}
+
+
+###
+
+GET  http://localhost:8080/api/productos/listar HTTP/1.1
